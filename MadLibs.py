@@ -63,3 +63,4 @@ arr = [template1, template2, template3]
 history = choice(arr)
 history_variables = TemplatesVariebles(history)
 out = MadLibs(history_variables, history)
+print(out)
